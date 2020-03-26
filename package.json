@@ -1,0 +1,40 @@
+{
+  "name": "s3fs",
+  "version": "1.0.0",
+  "description": "Implementation of Node.JS FS interface using Amazon Simple Storage Service (S3).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommypngo/s3fs-new.git"
+  },
+  "keywords": [
+    "s3fs"
+  ],
+  "author": "Tommy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tommypngo/s3fs-new/issues"
+  },
+  "homepage": "https://github.com/tommypngo/s3fs-new#readme",
+  "dependencies": {
+    "aws-sdk": "^2.647.0",
+    "bluebird": "^3.7.2",
+    "extend": "^3.0.2"
+  },
+  "devDependencies": {
+    "buddy.js": "^0.9.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^6.8.0",
+    "istanbul": "^0.4.5",
+    "jscs": "^3.0.7",
+    "jsinspect": "^0.12.7",
+    "mocha": "^7.1.1",
+    "nsp": "^3.2.1",
+    "through2": "^3.0.1"
+  }
+}
